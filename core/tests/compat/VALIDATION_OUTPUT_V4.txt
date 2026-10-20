@@ -1,0 +1,85 @@
+LegionForge v4 - actual native regression output
+
+Internal ctest changing into directory: /tmp/lf-native-build
+UpdateCTestConfiguration  from :/tmp/lf-native-build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/tmp/lf-native-build/DartConfiguration.tcl
+Test project /tmp/lf-native-build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: legionforge_dependency_compat
+
+1: Test command: /tmp/lf-native-build/tests/compat/legionforge_compat_tests
+1: Working Directory: /tmp/lf-native-build/tests/compat
+1: Test timeout computed to be: 30
+1: Boost 1_83; OpenSSL 3.5.9 29 Sep 2026; MySQL client 8.0.46
+1: PASS MySQL SDK and client library initialize together (no server connection)
+1: PASS Core SHA1 known-answer vector with OpenSSL 3
+1: PASS Core HMAC-SHA256 known-answer vector
+1: PASS Core packet RC4 known-answer vector without OpenSSL legacy provider
+1: PASS LogStrand serializes work across two io_context threads
+1: PASS Real StartProcess drains stdout and stderr concurrently and returns exit code
+1: PASS Real asynchronous process cancellation completes promptly
+1: PASS Cancelled process reports failure
+1: PASS Cancellation requested before child registration is preserved
+1: PASS Early cancellation reports failure
+1: All dependency regressions passed.
+1/1 Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.16 sec
+
+Internal ctest changing into directory: /tmp/lf-native-build
+Test project /tmp/lf-native-build
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.17 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+    Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+    Start 1: legionforge_dependency_compat
+1/1 Test #1: legionforge_dependency_compat ....   Passed    0.16 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   3.24 sec
+
+PASS Windows portable SDK overrides stale system SSL_EAY/LIB_EAY cache
+PASS incomplete SDK fails even with populated cache; no system fallback
